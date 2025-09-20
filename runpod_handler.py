@@ -5,7 +5,7 @@ import io
 
 # Load your model ONCE when the container starts
 # This object will be reused for all subsequent requests
-pipeline = KokoroV1Pipeline(use_gpu=True)
+pipeline = KokoroV1Pipeline(use_gpu=False)
 print("TTS Pipeline Initialized.")
 
 def handler(job):
