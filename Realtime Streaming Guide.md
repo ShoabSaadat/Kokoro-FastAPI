@@ -1,4 +1,6 @@
-Realtime TTS Streaming guide.md
+# Realtime TTS Streaming Guide
+
+
 📜 Introduction
 This guide provides a complete, step-by-step plan for building and deploying a high-performance, real-time Text-to-Speech (TTS) system. The core of this system is the Kokoro TTS model, served via a concurrent FastAPI application and consumed by a Django web frontend.
 The primary goal is to achieve a seamless, low-latency user experience where audio begins playing almost instantly and is visualized in real-time, eliminating the long waits associated with traditional TTS generation.
